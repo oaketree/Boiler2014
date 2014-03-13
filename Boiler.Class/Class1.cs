@@ -7,5 +7,6 @@ namespace Boiler.Class
 {
     public class Class1
     {
+
     }
 }
