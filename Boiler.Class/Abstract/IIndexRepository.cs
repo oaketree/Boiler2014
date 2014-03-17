@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Boiler.Class.Abstract
 {
-    public interface INewsRepository
+    public interface IIndexRepository
     {
         IQueryable<News> News { get; }
-        void saveNews(News news);
+        IQueryable<Product> Product { get; }
     }
 }

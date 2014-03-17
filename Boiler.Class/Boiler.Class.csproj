@@ -46,10 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IIndexRepository.cs" />
     <Compile Include="Abstract\INewsRepository.cs" />
-    <Compile Include="Concrete\NewsContext.cs" />
+    <Compile Include="Abstract\IProductRepository.cs" />
+    <Compile Include="Concrete\DefaultContext.cs" />
+    <Compile Include="Concrete\IndexRepository.cs" />
     <Compile Include="Concrete\NewsRepository.cs" />
     <Compile Include="Models\News.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

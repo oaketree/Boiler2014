@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boiler.Class", "Boiler.Class\Boiler.Class.csproj", "{F808CBC4-9AD8-496F-8CCE-E12752273A08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boiler.Web", "Boiler.Web\Boiler.Web.csproj", "{8BF491AF-462D-4871-822F-134C02EF7079}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boiler.Web.Tests", "Boiler.Web.Tests\Boiler.Web.Tests.csproj", "{76D38CAE-383D-4956-943E-4E5992E4A288}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F808CBC4-9AD8-496F-8CCE-E12752273A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F808CBC4-9AD8-496F-8CCE-E12752273A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F808CBC4-9AD8-496F-8CCE-E12752273A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F808CBC4-9AD8-496F-8CCE-E12752273A08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8BF491AF-462D-4871-822F-134C02EF7079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8BF491AF-462D-4871-822F-134C02EF7079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BF491AF-462D-4871-822F-134C02EF7079}.Release|Any CPU.ActiveCfg = Release|Any CPU
